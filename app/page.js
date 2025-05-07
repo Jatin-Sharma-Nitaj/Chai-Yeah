@@ -2,7 +2,6 @@
 import React from "react";
 import Button from "@/app/ui/btn";
 import Link from "next/link";
-import GitHubLoginButton from "@/app/ui/GithubBtn";
 export default function Home() {
   const data = [
     { img: "/man.gif", title: "Fund Yourself", desc: "Your fans are always ready to help." },
@@ -11,14 +10,14 @@ export default function Home() {
   ];
 
   return (<>
-
     <div className=" ">
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
         <div className="flex items-center justify-center gap-3 text-4xl md:text-5xl lg:text-6xl font-extrabold mb-8">
           <h2 className="flex items-center">
-            Get Me a ChaiYeah
-            <span className="ml-3">
+            Get Me a Chai <span className="text-yellow-400">
+              Yeah
+              </span>!           <span className="ml-3">
               <img src="/tea.gif" width={65} alt="chai gif" />
             </span>
           </h2>

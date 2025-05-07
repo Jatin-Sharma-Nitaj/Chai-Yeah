@@ -7,7 +7,7 @@ const GithubBtn = ({ children, ...props }) => {
     <button
       {...props}
       onClick={() => signIn("github")}
-      className="flex cursor-pointer items-center justify-center gap-2 px-6 py-3 bg-gray-800 text-white rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition duration-300"
+      className="flex cursor-pointer items-center justify-center gap-2 px-6 py-3 bg-gray-900 text-white rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition duration-300"
     >
       {/* GitHub Icon */}
       <svg

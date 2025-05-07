@@ -7,7 +7,7 @@ const GoogleBtn = ({ children, ...props }) => {
     <button
       {...props}
       onClick={() => signIn("google")}
-      className="flex cursor-pointer items-center justify-center gap-2 px-6 py-3 bg-zinc-200 text-black rounded-lg shadow-md hover:bg-zinc-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-400 transition duration-300"
+      className="flex cursor-pointer items-center justify-center gap-2 px-6 py-3 bg-zinc-200 text-black rounded-lg shadow-md hover:bg-zinc-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-400 transition duration-300"
     >
       {/* Google Icon */}
       <svg
